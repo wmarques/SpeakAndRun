@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"> 
+        
+     <com.example.speakandrunv2.PouleView
+         android:id="@+id/gameView"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"/>
+
+	<Button android:id="@+id/Button01" android:text="GAUCHE"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left|bottom" />
+		    
+	<Button android:id="@+id/Button02" android:text="DROITE"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right|bottom" />
+	
+	<TextView android:id="@+id/score" android:text="@string/score"
+		style="@style/scoreText" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="top|right" android:background="#5EA100" />
+	
+	<TextView android:id="@+id/best" android:text="@string/score"
+		style="@style/scoreText" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="top|left" android:background="#5EA100" />
+	
+
+ </FrameLayout>

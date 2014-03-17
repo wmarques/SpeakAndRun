@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Speak And Run</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Jouer">Jouer</string>
+    <string name="meilleurs_scores">Meilleurs Scores</string>
+    <string name="Quitter">Quitter</string>
+    <string name="coming_soon_">Coming soon...</string>
+    <string name="ok">Ok</string>
+    <string name="oiseaux">oiseaux</string>
+    <string name="son">Son</string>
+    <string name="title_activity_jeu">Jeu</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_settings">PREF</string>
+    <string name="score">0</string>
+    <string name="mot_reco_vocale">RECO</string>
+    <string name="title_activity_other">OtherActivity</string>
+    <string name="other_act">Ceci est une autre activite</string>
+    <string name="title_activity_scores">Scores</string>
+
+</resources>
